@@ -50,13 +50,7 @@
             { type:'GET', dataType:'html', success:dynForm(formDef2, forma2), error:errorHandler }
         );
     }
-    // function dataLoaded(data) {
-    //     console.log('загруженные через AJAX данные:');
-    //     console.log(data);
-
-    //     document.getElementById('IPlace').innerHTML=data;
-    // }
-
+   
     function errorHandler(jqXHR,statusStr,errorStr) {
         alert(statusStr+' '+errorStr);
     }
